@@ -1,7 +1,7 @@
 {
   "name": "news-aggregator",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,11 +13,16 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@fontsource/roboto": "^5.2.6",
+    "@mui/icons-material": "^7.3.1",
     "@mui/material": "^7.3.1",
     "@reduxjs/toolkit": "^2.8.2",
+    "@types/lodash": "^4.17.20",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-redux": "^9.2.0",
+    "reselect": "^5.1.1",
     "sass": "^1.90.0"
   },
   "devDependencies": {

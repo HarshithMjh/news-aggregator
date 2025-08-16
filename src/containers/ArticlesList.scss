@@ -1,0 +1,19 @@
+.articles-list-container {
+  flex-grow: 1;
+  overflow: auto;
+  padding: 2rem;
+  .articles-not-found {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .articles-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+  .articles-loading {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,30 @@
+.filters-container {
+  padding: 1.5rem;
+  .filters-header {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  .filters-body {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    .date-range-container {
+      display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      .date-selector {
+        flex-grow: 1;
+      }
+    }
+    .source-container {
+      .select {
+        width: 100%;
+      }
+      .chip-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+    }
+  }
+}

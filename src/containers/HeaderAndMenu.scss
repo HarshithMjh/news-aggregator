@@ -1,0 +1,27 @@
+.header-container {
+  .search-container {
+    flex-grow: 1;
+    padding: 0 4rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.drawer-container {
+  width: 25rem;
+  height: 100%;
+  .drawer-toolbar {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 696px) {
+  .header-container {
+    .search-container {
+      padding: 0 1rem;
+    }
+  }
+  .drawer-container {
+    width: 100vw;
+  }
+}

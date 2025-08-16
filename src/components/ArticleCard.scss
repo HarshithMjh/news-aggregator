@@ -1,0 +1,51 @@
+.article-container-outer {
+  width: 18.75rem;
+  container-type: inline-size;
+  border: 1px solid #000;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  background-color: #efefef;
+  .article-container {
+    width: 100%;
+
+    max-height: calc((100cqw / 4 * 3) + 6rem);
+
+    cursor: pointer;
+    .image-container {
+      width: 100%;
+      aspect-ratio: 4/3;
+    }
+    .text-container {
+      margin: 0.25rem;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .article-source-details {
+      padding: 0.25rem;
+      display: flex;
+      gap: 0.25rem;
+      font-size: 0.85rem;
+      line-height: 1.25rem;
+      .published-date {
+        text-wrap: nowrap;
+      }
+      .published-source {
+        flex-grow: 1;
+        text-wrap: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 696px) {
+  .article-container-outer {
+    width: 100%;
+  }
+}
